@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PhotonCodeChallenge</string>
+    <string name="column_name">Enter Column</string>
+    <string name="notify_text">Enter Array below 10 X 10</string>
+</resources>
