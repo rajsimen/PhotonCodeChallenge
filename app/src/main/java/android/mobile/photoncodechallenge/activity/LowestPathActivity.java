@@ -1,4 +1,4 @@
-package android.mobile.photoncodechallenge.matrix;
+package android.mobile.photoncodechallenge.activity;
 
 import android.mobile.photoncodechallenge.R;
 import android.os.Bundle;
@@ -6,7 +6,8 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 
 /**
- * Created by JMI Guest on 8/9/2017.
+ * Created by Raj
+ * on 8/9/2017.
  */
 
 public class LowestPathActivity extends AppCompatActivity {

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="android.mobile.photoncodechallenge.matrix.Matrix2DActivity">
+    tools:context="android.mobile.photoncodechallenge.activity.Matrix2DActivity">
 
     <TextView
         android:layout_width="wrap_content"

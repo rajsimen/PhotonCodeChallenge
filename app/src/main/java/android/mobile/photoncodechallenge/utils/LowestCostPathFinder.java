@@ -3,7 +3,8 @@ package android.mobile.photoncodechallenge.utils;
 import android.mobile.photoncodechallenge.model.Output;
 
 /**
- * Created by JMI Guest on 8/8/2017.
+ * Created by Raj
+ * on 8/8/2017.
  */
 
 public class LowestCostPathFinder {
@@ -50,13 +51,14 @@ public class LowestCostPathFinder {
                 }
 
                 if (cost[rowInteger][0]>50){
-                    // will return 0 the Grid Of XxY if 1st column all elements >50
+
                     isMoreGreater50++;
-                   // return 0;
+
                 }
             }
         }
-        if (isMoreGreater50>1){
+        if (isMoreGreater50>2){
+            // will return 0 the Grid Of XxY if 1st column all elements >50
             return 0;
         }
 

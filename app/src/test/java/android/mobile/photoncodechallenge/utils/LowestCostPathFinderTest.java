@@ -115,4 +115,14 @@ public class LowestCostPathFinderTest {
         Assert.assertTrue(output.isCompletePath());
         assertEquals(0,output.getLowestPathCost());
     }
+
+    @Test
+    public void checkLargeNumberOfColumn(){
+        lowestCostPathFinder=new LowestCostPathFinder();
+        int [][] grid={{1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
+                {2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2}};
+        Output output = lowestCostPathFinder.findLowestCostPath(grid);
+        Assert.assertTrue(output.isCompletePath());
+        assertEquals(20,output.getLowestPathCost());
+    }
 }
