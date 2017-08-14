@@ -1,5 +1,25 @@
 <resources>
     <string name="app_name">PhotonCodeChallenge</string>
     <string name="column_name">Enter Column</string>
-    <string name="notify_text">Enter Array below 10 X 10</string>
+    <string name="notify_text">Enter Array below 10 X 10 to manual</string>
+    <string name="xmatrix">Enter X</string>
+    <string name="ymatrix">Enter Y</string>
+    <string name="title">Matrix Grid</string>
+    <string name="submit_output">Output</string>
+    <string name="spinner_prompt">Select spinner for Default Test Case</string>
+    <string name="alertdialoug_msg">OutPut</string>
+
+    <string-array name="test_cases">
+        <item>Normal Flow 1</item>
+        <item>Normal Flow 2</item>
+        <item>Check1X5Matrix</item>
+        <item>Check5X1Matrix</item>
+        <item>CheckStartingValueAbove50</item>
+        <item>CheckOneValueAbove50</item>
+        <item>CheckIsNegativeValue</item>
+        <item>CheckLargeNumberOfColumn</item>
+
+
+
+    </string-array>
 </resources>
